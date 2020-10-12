@@ -89,7 +89,12 @@ body {
 }
 
 .mobile-element {
-  display: block !important;
+  display: block;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
 }
 
 .accent-btn {
