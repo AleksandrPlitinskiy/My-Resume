@@ -81,15 +81,15 @@ body {
 /* COMMON */
 
 .tablet-element {
-  display:  none !important;
+  display:  none;
 }
 
 .desktop-element {
-  display: none !important;
+  display: none;
 }
 
 .mobile-element {
-  display: block;
+  display: block !important;
 }
 
 .accent-btn {
@@ -1039,7 +1039,7 @@ outline: 1px solid var(--c-accent);
   }
 
   .mobile-element {
-    display: none;
+    display: none !important;
   }
 
   .tablet-element {
